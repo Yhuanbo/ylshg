@@ -1,0 +1,207 @@
+/* *******品牌故事开始********** */
+body{
+	overflow-x:hidden;
+}
+main .box{
+	width:100%;
+	height:auto;
+	position:relative;
+	padding:100px 0;
+}
+main .story{
+	background-color:#18198f;
+	padding-bottom:200px;
+	overflow:hidden;
+}
+main .story .con{
+	width:80%;
+	margin:auto;
+	position:relative;
+}
+main .story .con .left{
+	width:60%;
+	color:#fff;
+}
+main section .title{
+	width:300px;
+	position:relative;
+	margin-bottom:25px;
+}
+main section img{
+	display:block;
+	width:100%;
+}
+main .story .con .left .infor{
+	position:relative;
+	line-height:2;
+	font-size:15px;
+}
+main .story .con .left .infor p{
+	margin-bottom:15px;
+}
+main .story .con .right{
+	width:45%;
+	right:-5%;
+	bottom:-215px;
+	position:absolute;
+}
+/* *******品牌故事结束********** */
+/* *******经营理念开始********** */
+main .box.idea{
+	padding:0;
+	background-color:#18198f;
+	position:relative;
+}
+main .idea .idea_img{
+	width:60%;
+	margin-top:-100px;
+}
+main .idea .list{
+	width:50%;
+	position:absolute;
+	right:0;
+	background-color:#fff;
+	padding:50px;
+	top:0;
+	box-sizing:border-box;
+	z-index:5;
+}
+main .idea .list .title{
+	margin-bottom:15px;
+}
+main .idea .list .tit_tips{
+	color:#d59961;
+	line-height:1.7;
+}
+main .idea .list ul{
+	margin-top:20px;
+}
+main .idea .list ul li{
+	margin-bottom:15px;
+}
+main .idea .list ul li .icon{
+	width:63px;
+}
+main .idea .list ul li .infor{
+	width:calc(100% - 80px);
+	margin-left:17px;
+}
+main .idea .list ul li .infor b{
+	width:70px;
+	font-size:20px;
+	line-height:70px;
+	font-weight:400;
+}
+main .idea .list ul li .infor p{
+	width:calc(100% - 70px);
+	line-height:1.7;
+	margin-top:15px;
+	font-size:14px;
+}
+/* *******经营理念结束********** */
+/* *******荣誉资质开始********** */
+main .honor{
+	padding-top:150px;
+	background:#18198f url(../img/v4.jpg);
+	background-attachment:fixed;
+}
+main .honor .con{
+	width:80%;
+	margin:auto;
+}
+main .honor .con ul{
+	padding-top:25px;
+}
+main .honor .con ul li{
+	width:30%;
+	margin-right:5%;
+	margin-bottom:45px;
+	padding:20px;
+	position:relative;
+	box-sizing:border-box;
+}
+main .honor .con ul li:nth-of-type(3n){
+	margin-right:0;
+}
+main .honor .con ul li .img{
+	background:center center no-repeat;
+	background-size:cover;
+}
+main .honor .con ul li .border{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+main .footer_img{
+	width:265px;
+	margin:100px auto 0;
+}
+/* *******荣誉资质结束********** */
+/* ***********媒体查询开始************** */
+
+@media screen and (max-width:1444px) {
+	main .story .con,main .honor .con{
+		width:90%;
+	}
+}
+@media screen and (max-width:1300px) {
+	main .story .con{
+		width:94%;
+	}
+}
+@media screen and (max-width:1024px) {
+	main .story{
+		padding-bottom:100px;
+	}
+	main .story .con .right{
+		bottom:-15px;
+	}
+	main .idea .idea_img{
+		display:none;
+	}
+	main .idea .list{
+		width:100%;
+		margin-top:-100px;
+		padding:100px 50px;
+		position:relative;
+	}
+}
+@media screen and (max-width:800px) {
+	main section .title{
+		width:200px;
+	}
+	main .story .con .left{
+		width:100%;
+	}
+	main .story .con .right img{
+		opacity:.2;
+	}
+	main .honor .con ul li,main .honor .con ul li:nth-of-type(3n){
+		width:48%;
+		margin-right:4%;
+		margin-bottom:15px;
+	}
+	main .honor .con ul li:nth-of-type(2n){
+		margin-right:0;
+	}
+}
+@media screen and (max-width:767px) {
+	main section .title{
+		margin-bottom:10px;
+	}
+	main .box{
+		padding:50px 0;
+	}
+	main .idea .list{
+		padding:50px 3%;
+	}
+	main .idea .list .tit_tips{
+		font-size:14px;
+	}
+	main .footer_img{
+		width:200px;
+	}
+}
+/* ***********媒体查询结束************** */

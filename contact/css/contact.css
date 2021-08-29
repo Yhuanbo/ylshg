@@ -1,0 +1,145 @@
+main{
+	height:100vh;
+	position:relative;
+	background-size:cover;
+	background-image:url(../img/banner_contact.jpg);
+	background-position:center center;
+}
+main .left{
+	width:250px;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	left:5%;
+}
+main .left img{
+	display:block;
+	width:100%;
+}
+main .right{
+	width:700px;
+	position:absolute;
+	left:55%;
+	top:55%;
+	transform:translate(-50%,-50%);
+	color:#fff;
+}
+main .right p{
+	line-height:2;
+	font-size:14px;
+}
+main .right .tel{
+	display:block;
+	font-size:50px;
+	line-height:1.2;
+	color:#d59961;
+	margin-bottom:20px;
+	font-family:akrobatblack;
+}
+main .right .frm_box{
+	margin-top:35px;
+}
+main .right .frm_box .conl{
+	width:500px;
+}
+main .right .frm_box .conl input{
+	width:48%;
+	height:40px;
+	margin-right:4%;
+	text-indent:15px;
+}
+main .right .frm_box .conl input:nth-of-type(2){
+	margin-right:0;
+}
+main .right .frm_box .conl textarea{
+	margin-top:20px;
+	width:100%;
+	padding:15px;
+	outline:none;
+	resize:none;
+	font-family:"microsoft yahei";
+}
+main .right .frm_box .conl .send_btn{
+	display:block;
+	text-align:center;
+	width:125px;
+	height:40px;
+	line-height:40px;
+	background:url(../img/more_btn2.png) no-repeat center center;
+	color:#d59961;
+	margin-top:20px;
+	cursor:pointer;
+}
+main .right .frm_box .conr{
+	width:130px;
+	text-align:center;
+}
+main .right .frm_box .conr img{
+	display: block;
+	width:100%;
+}
+/* ******媒体查询开始************ */
+@media screen and (max-width:1200px) {
+	main .left{
+		width:15vw;
+	}
+	main .right{
+		width:70%;
+	}
+	main .right .frm_box .conl{
+		width:65%;
+	}
+	main .right .frm_box .conr{
+		float:left;
+		margin-left:50px;
+	}
+}
+@media screen and (max-width:800px) {
+	main .left{
+		top:30%;
+	}
+	main .right{
+		width:60%;
+	}
+	main .right .frm_box .conl{
+		width:500px;
+	}
+	main .right .frm_box .conr{
+		display:none;
+	}
+	main .right .tel{
+		font-size:40px;
+		margin-bottom:0;
+	}
+	main .right .frm_box{
+		margin-top:15px;
+	}
+}
+@media screen and (max-width:767px) {
+	main{
+		height:auto;
+		padding:20vh 0;
+	}
+	main .left{
+		display:none;
+	}
+	main .right{
+		position:relative;
+		top:40%;
+		transform:translate(0,0);
+		left:20%;
+	}
+	main .right .frm_box .conl{
+		width:100%;
+		margin-top:15px;
+	}
+	main .right .frm_box .conl input{
+		width:100%;
+		margin-right:0;
+		margin-bottom:10px;
+	}
+	main .right .frm_box .conl textarea{
+		margin-top:0;
+	}
+}
+/* ******媒体查询结束************ */
