@@ -1,0 +1,169 @@
+/* **********品牌优势开始************* */
+main .box.advantage,main .box.popul,main .strength{
+	background-color:#18198f;
+}
+main .con{
+	width:80%;
+	margin:auto;
+}
+main .advantage .con .left{
+	width:40%;
+}
+main .advantage .con .right{
+	width:55%;
+}
+main .advantage .con .right ul li{
+	color:#fff;
+	line-height:1.7;
+	font-size:14px;
+}
+main .advantage .con .right ul li .tit{
+	font-size:20px;
+	line-height:1.7;
+	margin-bottom:15px;
+}
+/* **********品牌优势结束************* */
+/* **********人气排队开始************* */
+main .popul.box{
+	overflow:hidden;
+	padding:0;
+}
+main .popul .lunbo{
+	width:90%;
+	margin-left:5%;
+	margin-top:20vh;
+}
+.swiper-button-next, .swiper-button-prev{
+	width:50px;
+	height:50px;
+	background:url(../img/arr_bg.png) no-repeat;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+	content:'';
+	width:20px;
+	height:20px;
+	background:url(../img/jt_icon.png) no-repeat;
+	background-size:cover;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+.swiper-button-prev:after{
+	transform: translate(-50%,-50%) rotate(-180deg);
+}
+.swiper-slide p{
+	font-size:18px;
+	line-height:2;
+	color:#fff;
+	text-shadow:0 0 5px rgb(0 0 0 / 50%);
+	position:absolute;
+	left:5%;
+	bottom:30px;
+}
+main .popul .list_bg{
+	width:100%;
+	height:70vh;
+	position:absolute;
+}
+main .popul .list_bg ul{
+	width:100%;
+	height:100%;
+}
+main .popul .list_bg ul li{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	background:center center no-repeat;
+	background-size:cover;
+	transform:scale(3);
+	transition:all 1s;
+	filter:blur(20px);
+	opacity:0;
+}
+main .popul .list_bg ul li.active{
+	opacity:1;
+}
+/* **********人气排队结束************* */
+/* **********品牌实力开始************* */
+main .con.shili{
+	width:100%;
+}
+main .con.shili .left{
+	width:55%;
+}
+main .con.shili .list{
+	width:35%;
+	color:#fff;
+	margin-top:50px;
+	margin-right:5%;
+}
+main .con.shili .list li{
+	line-height:1.7;
+	margin-bottom:15px;
+	padding-left:25px;
+	box-sizing:border-box;
+	position:relative;
+}
+main .con.shili .list li::after{
+	background-color:#d59961;
+	width:8px;
+	height:8px;
+	position:absolute;
+	left:0;
+	top:8px;
+	border-radius:50%;
+	opacity:.7;
+	content:'';
+}
+/* **********品牌实力开始************* */
+/* **********媒体查询开始************* */
+@media screen and (max-width:1444px) {
+	main .con{
+		width:90%;
+	}
+}
+@media screen and (max-width:1300px) {
+	main .con{
+		width:94%;
+	}
+}
+@media screen and (max-width:800px) {
+	main .advantage .con .left{
+		display:none;
+	}
+	main .advantage .con .right{
+		width:100%;
+	}
+	main .con.shili .left{
+		display:none;
+	}
+	main .con.shili .list{
+		width:94%;
+		margin-right:0;
+	}
+}
+@media screen and (max-width:767px) {
+	main .advantage .con .right ul li .pes{
+		opacity:.7;
+	}
+	main .advantage .con .right ul li .tit{
+		margin-bottom:0;
+	}
+	main .popul .lunbo{
+		width:94%;
+		margin-left:3%;
+		margin-top:50px;
+	}
+	main .con.shili .list{
+		margin-top:15px;
+		padding:0 3%;
+	}
+	main .con.shili .list li{
+		font-size:14px;
+		margin-bottom:10px;
+	}
+}
+/* **********媒体查询结束************* */

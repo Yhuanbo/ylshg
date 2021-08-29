@@ -1,0 +1,519 @@
+/* ********第一轮播开始************ */
+main .box.carousel{
+	padding-top:150px;
+}
+main{
+	background-color:#18198f;
+}
+main .box{
+	background-color:#18198f;
+}
+main .con{
+	width:80%;
+	margin:auto;
+}
+.swiper_1 .swiper-slide{
+	background-color:#fff;
+}
+.swiper-slide .swiper_left{
+	width:60%;
+	overflow:hidden;
+}
+.swiper-slide .swiper_right{
+	width:40%;
+	padding-left:4%;
+	padding-top:10%;
+	box-sizing:border-box;
+	background-color:#fff;
+}
+.swiper_1 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper_1 .swiper-pagination-custom, .swiper_1 .swiper-pagination-fraction{
+	bottom:auto;
+	top:50px;
+	color:#17198f;
+	margin-left:16%;
+	left:auto;
+	margin-bottom:50px;
+	font-weight:bold;
+	font-family:"akrobatblack";
+}
+.swiper_1 .swiper-pagination-current{
+	font-size:46px;
+}
+.swiper_1 .swiper-pagination-total{
+	font-size:18px;
+	font-weight:500;
+}
+.swiper_1 .swiper-button-next,.swiper_1  .swiper-button-prev{
+	width:50px;
+	height:50px;
+	background:url(../img/arr_bg.png) no-repeat;
+}
+.swiper_1 .swiper-button-next:after,.swiper_1 .swiper-button-prev:after{
+	width:20px;
+	height:20px;
+	content:'';
+	background:url(../img/jt_icon.png) no-repeat;
+	background-size:cover;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+.swiper_1 .swiper-button-prev:after{
+	transform:translate(-50%,-50%) rotate(-180deg);
+}
+.swiper-slide .swiper_right .tit{
+	color:#17198f;
+	font-size:24px;
+	position:relative;
+}
+.swiper-slide .swiper_right .tit::after{
+	content:'';
+	position:absolute;
+	width:5px;
+	background:#17198f;
+	height:100%;
+	left:-20px;
+}
+.swiper-slide .swiper_right .txt{
+	color:#4e4e4e;
+	line-height:46px;
+	border-bottom:1px solid #ccc;
+	margin-bottom:10px;
+	-webkit-line-clamp:1;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.swiper-slide .swiper_right .time{
+	color:#616161;
+	font-size:14px;
+	line-height:1.6;
+	height:66px;
+	margin-bottom:50px;
+}
+.swiper-slide .swiper_right .more{
+	width:164px;
+	line-height:40px;
+	background-color:#17198f;
+	border-radius:50px;
+	color:#fff;
+	text-align:center;
+}
+.swiper-slide .swiper_right .more a{
+	display:block;
+	color:#fff;
+}
+.swiper_1 .swiper-button-prev{
+	left:calc(60% + 10px);
+	bottom:12px;
+	top:auto;
+}
+.swiper_1 .swiper-button-next{
+	top:auto;
+	right:10px;
+	bottom:12px;
+}
+/* ********第一轮播结束************ */
+main .box.branch{
+	padding:0;
+}
+main .branch .top{
+	text-align:center;
+	color:#fff;
+	padding:50px 20% 50px;
+}
+main .branch .top .top_item{
+	width:50%;
+	position:relative;
+	font-size:14px;
+}
+main .branch .top .top_item span{
+	font-size:60px;
+	padding-right:20px;
+	position:relative;
+	font-family:akrobatblack;
+}
+main .branch .top .top_item span::after{
+	width:20px;
+	height:20px;
+	position:absolute;
+	right:0;
+	bottom:15px;
+	font-size:30px;
+	line-height:20px;
+	text-align:center;
+	content:'+';
+}
+main .branch .tab{
+	text-align:center;
+}
+main .branch .tab a{
+	display:inline-block;
+	width:160px;
+	line-height:36px;
+	border:1px solid #fff;
+	border-radius:25px;
+	font-size:17px;
+	margin:0 15px;
+	color:#fff;
+}
+main .branch .tab a.active{
+	background-color:rgba(255,255,255,.9);
+	color:#17198f;
+	border-color:rgba(255,255,255,.9);
+}
+main .branch .tab_con .left{
+	width:40%;
+	color:#fff;
+	margin-top:150px;
+}
+main .branch .tab_con .left h2{
+	color:#e9b792;
+	font-size:28px;
+	line-height:1.4;
+	font-weight:400;
+	margin-bottom:15px;
+}
+main .branch .tab_con .left p{
+	margin-bottom:100px;
+	line-height:2;
+	font-size:14px;
+}
+main .branch .tab_con .left .infor{
+	line-height:2;
+	color:rgba(255,255,255,.7);
+	font-size:14px;
+}
+main .branch .tab_con .swiper_2{
+	width:55%;
+}
+/* ********地图导航开始************ */
+main .box.map_nav{
+	padding:0 0 150px;
+}
+main .map_nav .city_nav{
+	text-align:center;
+	padding-bottom:15px;
+}
+main .map_nav .city_nav select{
+	background-color:#fff;
+	padding:5px 10px;
+	font-size:14px;
+	height:34px;
+	border:none;
+	width:268px;
+	border-radius:28px;
+	margin:0 12px;
+	display:inline-block;
+}
+main .map_nav .city_nav .search_btn{
+	display:inline-block;
+	font-size:14px;
+	height:34px;
+	width:120px;
+	border-radius:28px;
+	margin:0 12px;
+	line-height:34px;
+	cursor:pointer;
+	background-color:#c98f64;
+	color:#fff;
+}
+main .map_nav .map_tit{
+	padding-bottom:20px;
+	color:#fff;
+	margin-top:100px;
+}
+main .map_nav .map_tit span{
+	margin-left:7px;
+	font-size:12px;
+}
+main .map_nav .mapbox .con{
+	position:relative;
+}
+main .map_nav .tit_box{
+	width:420px;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	background-color:#fff;
+	right:-500px;
+	transition:all .6s cubic-bezier(.23,1,.32,1);
+	z-index:111;
+	opacity:0;
+}
+main .map_nav .tit_box.active{
+	opacity:1;
+	right:0;
+}
+main .map_nav .tit_box .close{
+	position:absolute;
+	cursor:pointer;
+	right:0;
+	top:0;
+	background-color:#c98f64;
+	width:30px;
+	padding:5px;
+	box-sizing:border-box;
+}
+main .map_nav .tit_box .bg{
+	background-image:url(../img/bg_1.jpg);
+	background-position:center;
+	background-size:cover;
+}
+main .map_nav .tit_box#tit2 .bg{
+	background-image:url(../img/bg_2.jpg);
+}
+main .map_nav .tit_box#tit3 .bg{
+	background-image:url(../img/bg_3.jpg);
+}
+main .map_nav .tit_box#tit4 .bg{
+	background-image:url(../img/bg_4.jpg);
+}
+main .map_nav .tit_box .informa{
+	padding:0 0 15px;
+	width:94%;
+	text-align:center;
+	margin:0 auto;
+}
+main .map_nav .tit_box .informa .title{
+	width:auto;
+	font-size:18px;
+	color:#c98f64;
+	position:relative;
+	padding:15px 0;
+	margin-bottom:20px;
+}
+main .map_nav .tit_box .informa .title::after{
+	content:'';
+	position:absolute;
+	bottom:5px;
+	width:40px;
+	height:2px;
+	background-color:#c98f64;
+	left:50%;
+	transform:translateX(-50%);
+}
+main .map_nav .tit_box .informa .txt{
+	line-height:1.8;
+	margin-bottom:30px;
+	font-size:14px;
+}
+main .map_nav .tit_box .informa .more{
+	display:block;
+	width:150px;
+	line-height:40px;
+	background-color:#c98f64;
+	font-size:14px;
+	text-align:center;
+	border-radius:20px;
+	color:#fff;
+	margin:0 auto;
+}
+#allmap,#defaultmap{
+	left:50%;
+	transform:translateX(-50%);
+}
+/* ********地图导航结束************ */
+main .error_tit{
+	width:100%;
+	height:50px;
+	left:0;
+	top:50%;
+	margin-top:-25px;
+	z-index:5000;
+	position:fixed;
+	text-align:center;
+	display:none;
+}
+main .error_tit p{
+	display:inline-block;
+	border-radius:5px;
+	background-color:#fff;
+	color:#222;
+	padding:10px 20px;
+	border:1px solid #222;
+	box-shadow:0 0 5px rgb(55 55 55 / 20%);
+}
+main .error_tit p span{
+	padding-left:30px;
+	position:relative;
+}
+main .error_tit p span::before{
+	content:'';
+	position:absolute;
+	width:24px;
+	height:24px;
+	background:url(../img/error.png) no-repeat center;
+	background-size:contain;
+	top:50%;
+	margin-top:-12px;
+	left:0;
+}
+main .error_tit.active {
+	display:block;
+}
+main .error_tit.active p{
+	color:#d81e06;
+	border-color:#d81e06;
+}
+/* *****媒体查询开始****** */
+@media screen and (max-width:1444px) {
+	main .con{
+		width:90%;
+	}
+}
+@media screen and (max-width:1300px) {
+	main .con{
+		width:94%;
+	}
+}
+@media screen and (max-width:1024px) {
+	.swiper-slide .swiper_right .tit{
+		font-size:18px;
+	}
+	.swiper_1 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper_1 .swiper-pagination-custom, .swiper_1 .swiper-pagination-fraction{
+		top:20px;
+	}
+	main .branch .tab_con .left{
+		margin-top:50px;
+	}
+	#allmap,#defaultmap{
+		width:105% !important;
+	}
+	main .box.map_nav{
+		padding:0;
+	}
+}
+@media screen and (max-width:900px) {
+	.swiper-slide .swiper_right .time{
+		margin-bottom:0;
+	}
+}
+@media screen and (max-width:800px) {
+	.swiper-slide .swiper_right .time{
+		height:auto;
+		margin-bottom:15px;
+	}
+	.swiper_1 .swiper-button-next, .swiper_1 .swiper-button-prev{
+		width:40px;
+		height:40px;
+		background-size:cover;
+	}
+	main .box.carousel{
+		padding:50px 0;
+	}
+	main .branch .top{
+		padding:50px 0 50px;
+	}
+	main .branch .top .top_item{
+		font-size:12px;
+	}
+	main .branch .top .top_item span{
+		font-size:30px;
+	}
+	main .branch .tab_con .left{
+		width:45%;
+	}
+	main .branch .tab_con .left h2{
+		font-size:18px;
+	}
+	main .branch .tab_con .left p{
+		margin-bottom:50px;
+	}
+	main .map_nav .city_nav select{
+		width:200px;
+	}
+	main .map_nav .map_tit{
+		text-align:center;
+		font-size:16px; 
+		margin-top:0;
+	}
+}
+@media screen and (max-width:767px) {
+	.swiper-slide .swiper_left,.swiper-slide .swiper_right{
+		width:100%;
+	}
+	.swiper_1 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper_1 .swiper-pagination-custom, .swiper_1 .swiper-pagination-fraction{
+		top:auto;
+		bottom:18%;
+		text-align:left;
+		margin-left:3%;
+	}
+	.swiper-slide .swiper_right .tit{
+		text-indent:10px;
+		margin-bottom:5px;
+		font-size:16px;
+		font-weight:700;
+	}
+	.swiper-slide .swiper_right .tit::after{
+		width:3px;
+		left:0;
+	}
+	.swiper-slide .swiper_right .txt{
+		line-height:2;
+		font-size:14px;
+		border-bottom:1px solid rgb(0,0,0,.1);
+	}
+	.swiper-slide .swiper_right .more{
+		margin:0 auto;
+	}
+	.swiper-slide .swiper_right{
+		padding-bottom:20px;
+	}
+	.swiper_1 .swiper-button-prev{
+		left:10px;
+	}
+	main .branch .tab_con .left,.swiper_2,.swiper_2 .swiper-slide{
+		width:100% !important;
+	}
+	main .branch .tab_con .left{
+		margin-top:0;
+	}
+	main .branch .tab{
+		margin-bottom:15px;
+	}
+	main .branch .tab a{
+		width:27%;
+		margin:0 2%;
+		line-height:26px;
+		font-size:14px;
+		font-weight:inherit;
+	}
+	main .map_nav .city_nav span{
+		width:auto;
+	}
+	main .map_nav .city_nav select{
+		width:auto;
+		margin:0;
+	}
+	main .map_nav .city_nav .search_btn{
+		margin:0 0 0 5px;
+	}
+	main .map_nav .tit_box{
+		width:90%;
+	}
+	main .map_nav .tit_box .informa .title{
+		font-size:16px;
+		padding:10px 0;
+		margin-bottom:10px;
+		font-weight:700;
+	}
+	main .map_nav .tit_box .informa .title::after{
+		width:20px;
+	}
+	main .map_nav .tit_box .informa .txt{
+		line-height:1.4;
+		margin-bottom:10px;
+	}
+}
+@media screen and (max-width:600px) {
+	.swiper_1 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper_1 .swiper-pagination-custom, .swiper_1 .swiper-pagination-fraction{
+		bottom:23%;
+	}
+	.swiper_1 .swiper-pagination-current{
+		font-size:2em;
+	}
+}
+/* *****媒体查询结束****** */
