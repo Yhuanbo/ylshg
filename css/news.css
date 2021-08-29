@@ -1,0 +1,82 @@
+main .main_list{
+	background-color:#18198f;
+}
+main .main_list .con{
+	width:80%;
+	margin:auto;
+}
+main .main_list .con .item{
+	width:48%;
+	margin-right:4%;
+	margin-bottom:50px;
+}
+main .main_list .con .item:nth-of-type(even){
+	margin-right:0;
+}
+main .main_list .con .item a{
+	display:block;
+}
+main .main_list .con .item .img{
+	background-size:cover;
+}
+main .main_list .con .item .infor{
+	padding:35px 0;
+	color:#fff;
+}
+main .main_list .con .item .infor .time{
+	font-size:24px;
+	line-height:2;
+	margin-bottom:15px;
+	font-family:akrobatblack;
+}
+main .main_list .con .item .infor .title{
+	line-height:2;
+	margin-bottom:10px;
+	width:100%;
+}
+main .main_list .con .item .infor .des{
+	font-size:14px;
+	line-height:1.7;
+	color:rgba(255,255,255,.7);
+}
+main .main_list .con .page li{
+	width:40px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:14px;
+	margin-right:10px;
+	color:rgba(255,255,255,.9);
+	background-color:rgba(0,0,0,.2);
+	cursor:pointer;
+	border-radius:4px;
+}
+main .main_list .con .page li:hover,main .main_list .con .page li.active{
+	background-color:#253592;
+	color:#fff;
+}
+/* **********媒体查询开始************** */
+@media screen and (max-width:1444px) {
+	main .main_list .con{
+		width:90%;
+	}
+}
+@media screen and (max-width:1300px) {
+	main .main_list .con{
+		width:94%;
+	}
+}
+@media screen and (max-width:767px) {
+	main .main_list .con .item{
+		width:100%;
+		margin-right:0;
+		margin-bottom:0;
+	}
+	main .main_list .con .item .infor{
+		padding:15px 0;
+	}
+	main .main_list .con .item .infor .time{
+		margin-bottom:0;
+	}
+}
+/* **********媒体查询结束************** */
