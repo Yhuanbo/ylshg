@@ -1,0 +1,184 @@
+/* ********合作优势开始************* */
+main .box.youshi,main .box.process{
+	background-color:#18198f;
+	overflow:hidden;
+}
+main .con{
+	width:80%;
+	margin:auto;
+}
+main .youshi .list{
+	color:#fff;
+	padding-top:25px;
+}
+main .youshi .list ul li{
+	width:30%;
+	margin-right:5%;
+	margin-bottom:35px;
+	box-sizing:border-box;
+	position:relative;
+	padding-left:35px;
+	box-sizing:border-box;
+}
+main .youshi .list ul li:nth-of-type(3n){
+	margin-right:0;
+}
+main .youshi .list ul li .tit{
+	font-size:20px;
+	line-height:35px;
+	margin-bottom:10px;
+}
+main .youshi .list ul li .txt{
+	font-size:14px;
+	line-height:25px;
+	opacity:.7;
+	height:125px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+}
+main .youshi .list ul li::before{
+	content:'';
+	width:10px;
+	height:10px;
+	border:1px solid #d59961;
+	border-radius:50%;
+	position:absolute;
+	left:6px;
+	top:10px;
+}
+main .youshi .list ul li::after{
+	content:'';
+	width:20px;
+	height:20px;
+	border:2px solid #d59961;
+	border-radius:50%;
+	position:absolute;
+	left:0;
+	top:4px;
+}
+/* ********合作优势结束************* */
+/* ********合作条件开始***********/
+main .box.condition{
+	background:url(../img/bg5.jpg) no-repeat center center / cover;
+	background-attachment:fixed;
+}
+main .condition .pic{
+	line-height:1.7;
+	color:#d59961;
+}
+main .condition .cond_list{
+	margin-top:20px;
+	margin-bottom:50px;
+}
+main .condition .cond_list ul li{
+	width:32%;
+	margin-right:2%;
+	padding:25px 15px;
+	box-sizing:border-box;
+	border:1px solid #d59961;
+	background-color:#fff;
+	margin-bottom:25px;
+}
+main .condition .cond_list ul li:nth-of-type(3n){
+	margin-right:0;
+}
+main .condition .cond_list ul li .icon{
+	width:65px;
+	height:65px;
+	background-color:#d59961;
+	border-radius:50%;
+	margin-top:10px;
+}
+main .condition .cond_list ul li .infor{
+	width:calc(100% - 85px);
+}
+main .condition .cond_list ul li .infor span{
+	line-height:35px;
+	font-size:18px;
+	font-weight:bold;
+}
+main .condition .cond_list ul li .infor p{
+	height:40px;
+	line-height:20px;
+	font-size:14px;
+	overflow:hidden;
+}
+/* ********合作条件结束**********/
+/* ********合作流程开始**********/
+main .process .process_list{
+	margin-top:50px;
+}
+main .process .process_list ul li{
+	width:16.6666%;
+	text-align:center;
+}
+main .process .process_list ul li .icon{
+	width:134px;
+	background-color:#fff;
+	margin:0 auto;
+	border-radius:50%;
+}
+main .process .process_list ul li p{
+	color:#fff;
+	line-height:2;
+	margin-top:25px;
+}
+/* ********合作流程结束*********/
+/* ********媒体查询开始********** */
+@media screen and (max-width:1444px) {
+	main .con{
+		width:90%;
+	}
+}
+@media screen and (max-width:1300px){
+	main .con{
+		width:94%;
+	}
+}
+@media screen and (max-width:800px){
+	main .youshi .list ul li,main .youshi .list ul li:nth-of-type(3n),main .condition .cond_list ul li,main .condition .cond_list ul li:nth-of-type(3n){
+		width:48%;
+		margin-right:4%;
+		margin-bottom:15px;
+	}
+	main .youshi .list ul li:nth-of-type(2n),main .condition .cond_list ul li:nth-of-type(2n){
+		margin-right:0;
+	}
+	main .process .process_list ul li .icon{
+		width:100px;
+	}
+	main .process .process_list ul li p{
+		font-size:12px;
+	}
+}
+@media screen and (max-width:767px){
+	main .youshi .list ul li,main .condition .cond_list ul li{
+		width:100% !important;
+	}
+	main .youshi .list ul li .tit{
+		font-size:16px;
+		font-weight:700;
+		margin-bottom:0
+	}
+	main .youshi .list ul li .txt{
+		height:auto;
+	}
+	main .condition .cond_list ul li{
+		margin-right:0;
+	}
+	main .process .process_list ul li{
+		width:48%;
+		margin-right:4%;
+		margin-bottom:15px;
+	}
+	main .process .process_list ul li:nth-of-type(even){
+		margin-right:0;
+	}
+	main .process .process_list ul li .icon{
+		width:70px;
+	}
+}
+/* ********媒体查询结束********** */
